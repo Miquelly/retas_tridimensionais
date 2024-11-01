@@ -220,6 +220,7 @@ def main():
             variavel = y.loc[x]
 
         """ Reta"""
+        # Qualquer uma das duas funções funcionam, a diferença é o método de estimação da reta
         xL, yL, zL, xR, yR, zR = obj.reta_regressao_projecao(parts)
         xL, yL, zL, xR, yR, zR = obj.reta_geometria(parts)
 
@@ -320,3 +321,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# source /home/miquelly/Desktop/New_work/.venv/bin/activate
